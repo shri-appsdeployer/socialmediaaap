@@ -1,0 +1,42 @@
+.createpost-wrap{
+    border: .5px solid gray;
+    border-radius: .5rem;
+    width: 40%;
+    margin:1rem auto;   
+
+    
+    .createpost-upper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: .5rem 0rem;
+        
+        img{
+            max-width:3rem;
+            max-height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        input{
+            width: 30rem;
+            border-radius: .5rem;
+            border: none;
+            padding: 0.5rem;
+            outline: none;
+        }
+    }
+
+    .createpost-lower{
+        display: flex;
+        justify-content: space-around;
+        button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    }
+}
