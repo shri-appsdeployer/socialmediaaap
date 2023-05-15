@@ -1,0 +1,78 @@
+.feed-container{
+    border: 1px solid gray;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 1rem;
+    margin:.5rem auto;
+    background-color: #474E68;
+    color: whitesmoke;
+
+    
+    .feed-user{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        .feed-user-wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        img{
+            width: 3rem;
+            height: 3rem;
+            object-fit: contain;
+        }
+        .feed-user-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .feed-follow{
+            text-transform: capitalize;
+            button{
+
+                color: rgb(7, 7, 89);
+            }
+        }
+
+    }
+
+    .feed-content{
+        .feed-description{
+
+        }
+        .feed-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                max-width:75%;
+                max-height:75%;
+            }
+        }
+    }
+
+    .feed-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+            width: 100%;
+            margin: 0px .5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    
+}
+.fa-solid{
+    margin: .5rem;
+}
