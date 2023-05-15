@@ -1,5 +1,9 @@
 import React from "react";
 import "./Navbar.scss";
+import { FaSearch} from 'react-icons/fa';
+
+
+
 
 const Navbar = () => {
   return (
@@ -15,7 +19,7 @@ const Navbar = () => {
               aria-label="Search"
             />
             <button class="btn btn-outline-success" type="submit">
-              Search
+                <FaSearch/>
             </button>
           </form>
         </div>

@@ -1,0 +1,23 @@
+body{
+    background-color: #50577A;
+}
+
+.home-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+    .profilecard-wrap{
+        width: 28%;
+        height: max-content;
+    }
+
+    .feed-wrap{
+        width: 38%;
+    }
+
+    .other{
+        width: 28%;
+    }
+
+}

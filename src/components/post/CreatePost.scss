@@ -1,8 +1,8 @@
 .createpost-wrap{
     border: .5px solid gray;
     border-radius: .5rem;
-    width: 40%;
-    margin:1rem auto;   
+    width: 100%;
+    margin: 1rem auto;   
 
     
     .createpost-upper{
@@ -13,6 +13,7 @@
         margin: .5rem 0rem;
         
         img{
+            margin: .2rem;
             max-width:3rem;
             max-height: 3rem;
             display: flex;
@@ -21,7 +22,7 @@
 
         }
         input{
-            width: 30rem;
+            width: 27rem;
             border-radius: .5rem;
             border: none;
             padding: 0.5rem;

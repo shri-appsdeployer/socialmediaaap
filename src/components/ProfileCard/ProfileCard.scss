@@ -1,0 +1,25 @@
+.sidecard-wrap{
+    width: 70%;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    color: white;
+    .profile{
+        img{
+            width: 5rem;
+            height: 5rem;
+            object-fit: contain;
+            border-radius: 100%;
+            border: 1px solid whitesmoke;
+            margin: 1rem;
+        }
+    }
+    .sd-impression,.sd-viewprofile{
+        font-weight: 300;
+        display: flex;
+    }
+}
